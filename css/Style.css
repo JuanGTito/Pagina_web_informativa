@@ -735,6 +735,7 @@ header.sticky{
    .Contacto-icons i{
        font-size: 6vw;
        width: 15%;
+       padding: 10%;
    }
    .Contacto-list p{
        font-size: 15px;
