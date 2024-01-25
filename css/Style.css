@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 16%;
+    border: 1px solid transparent;
+    transition:  all .40s ease;
+}
+.logo img{
+    width: 120px;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    
+}
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition:  all .40s ease;
+}
+.navbar a:hover{
+    background: #19376D;
+    color: #575454;
+}
+#menu-icon{
+    display: none;
+    cursor: pointer;
+    line-height: 1;
+    color: #000000;
+    
+}
+section{
+    padding: 200px 16% 110px;
+}
+
+.Nosotros{
+    width: 100%;
+    position: relative;
+    background-image: url(../img/Fondo\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Nosotros1{
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    background: #19376D;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px 10%;
+}
+.Nosotros1 p{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900px;
+}
+.Nosotros-text{
+    display: flex;
+}
+.Nosotros-text h4{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    right: 80px;
+    margin-top: 170px;
+}
+.Nosotros-text img{
+    height: 30vw;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+}
+header.sticky{
+    padding: 10px 5%;
+    background: #fff;
+    border-bottom: 1px solid #f4efed;
+}
+
+.Servicios{
+    width: 100%;
+    background: #fff;
+    padding: 50px 10%;
+}
+
+.titulo h2{
+    text-align: center;
+    color: #19376D;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+.Negrita{
+    color: #19376D;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+.texto{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 8%;
+}
+
+.servicio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.box-S{
+    padding: 0px;
+    background: #0B2447;
+    border-radius: 0.5rem;
+}
+.titulo-ser{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.subtitulo2{
+    background: #fff;
+    border: 1px solid #19376D;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.subtitulo21{
+    background: #e2ecff;
+    margin: 15px 40px 15px 40px;
+    border-radius: 0.5rem;
+    color: #19376D;
+}
+.subtitulo22{
+    color: black;
+}
+.subtitulo3{
+    color: black;
+    font-size: 28px;
+    font-weight: 100;
+}
+.subtitulo31{
+    font-weight: 700;
+}
+.subtitulo4{
+    font-size: 15px;
+    padding: 0px 0px 10px 0px;
+}
+.parrafo{
+    font-size: 12px;
+    margin: 30px;
+    text-align: center;
+}
+
+.Productos-S{
+    width: 100%;
+    background: #fff;
+    padding: 50px 10%;
+    background: #19376D;
+}
+.main-text h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: #fff;
+}
+.main-text h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.Productos-V{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 20% 0 10%;
+}
+.text-p h2{
+   font-size: 35px;
+   padding: 0px 0px 40px 0px;
+   width: 70%;
+   text-align: left;
+   color: #B9D7EA;
+}
+.text-p h3{
+    font-size: 21px;
+    width: 70%;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+ }
+.Fondo-R img{
+    max-width: 300%;
+    height: auto;
+
+}
+.Contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    width: 100%;
+    background: #fff;
+    padding: 50px 10%;    
+}
+.Contacto-text h2{ 
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    width: 450px;
+}
+.Contacto-form form{
+    width: 450px;
+}
+.Contacto-form form input, form textarea{
+    border: 2px solid black;
+    outline: none;
+    width: 100%;
+    padding: 18px;
+    background: #fff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.Contacto-form form textarea{
+    border: 2px solid black;
+    resize: none;
+    height: 220px;
+    background: white;
+    color: #000000;   
+}
+.Contacto-form form .send{
+    
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    background: #19376D;
+    color: #fff;
+    width: 190px;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+.line{
+    background: #000000;
+    width: 3px;
+    height: 580px;
+    position: relative;
+    left: 90px;
+}
+.Atencion-C{
+    position: relative;
+    right: 60px;
+    text-align: center;
+    margin-top: 180px; 
+}
+.Atencion-C h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.correo-U{
+    margin: 10px;
+    cursor: pointer;
+}
+.correo-R{
+    display: flex;
+    color: #000000;
+}
+#Correo-1{
+    position: relative;
+    font-size: 50px;
+    border: 3px solid rgb(194, 2, 2);
+    border-radius: 10px;
+    margin-top: 18px;
+    left: 27px;
+    color: rgb(194, 2, 2);
+}.Atencion-C a h2{
+    position: relative;
+    left: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 23px;
+}
+.whatsapp-U{
+    display: flex; 
+    cursor: pointer;
+}
+#Whatsapp-1{
+    position: relative;
+    font-size: 60px;
+    left: 36px;
+    color: rgb(0, 161, 0);
+}
+.whatsapp-A{
+    display: flex;
+    color: #000000;
+}
+.Atencion-C a p{
+    position: relative;
+    left: 48px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.informacion{
+    background: #0B2447;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20%; 
+
+}
+.informacion div img{
+    width: 40%;
+    position: relative;
+    
+}
+.Logo1{
+    text-align: center;
+    position: relative;
+    right: 100px;
+
+}
+.Contacto-icons i{
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: all .40s ease;
+}
+.Contacto-icons i:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #fff;
+    background: #8FBAF3;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Contacto-list p{
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 5px;
+}
+.Contacto-list li a{
+    color: #fff;
+    position: relative;
+    left: 6px;
+    transition: all .40s ease;
+}
+.Contacto-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #8FBAF3;
+}
+
+.last-text p{
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top i{
+    color: #fff;
+    background: #19376D;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+ 
+@media screen and (max-width: 992px){
+   .logo img{
+       width: 20%;
+       height: auto;
+   }
+   .navbar{
+    display: none;
+    position: fixed;
+    text-align: center;
+    right: 0;
+    top: 50px;
+    width: 40%;
+    height: 35%;
+    background-color: #ffffff80;
+    overflow-y: auto;
+    }
+   header{    
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 2% 5%;
+   }
+   .navbar.active{
+        display: block;
+        z-index: 2;
+   }
+   .navbar li{
+        margin-top: 25px;
+   }
+   .navbar a{
+        display: block;
+        padding: 3% 10px;
+        color: #000000;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+   }
+   .navbar a:hover {
+        background-color: #f5f5f5;
+  }
+   #menu-icon {
+        display: block;
+        line-height: 1;
+        color: #000000;
+        font-size: 150%;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 3;        
+   }
+   .Nosotros-text{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 15%;
+   }
+   .Nosotros-text h4{
+       margin-top: 1vw;
+       color: white;
+       font-size: 30px;
+       font-weight: 600;
+       text-align: center;
+       position: relative;
+       left: 0%;
+   }
+   .Nosotros-text img{
+       border-radius: 20px;
+       height: 100%;
+       width: 100%;
+       margin-top: 10vw;
+       position: relative;
+       left: 0%;
+   }
+   .Nosotros1 p{
+       font-size: 30px;
+   }
+   .Servicios{
+       grid-template-columns: 2fr;
+       
+   }
+   .Productos-V{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 10%;
+   }
+   .text-p h2{
+       font-size: 30px;
+       width: auto;
+       text-align: center;
+       color: #B9D7EA;
+   }
+   .text-p h3{
+       font-size: 20px;
+       width: 70vw;
+       font-weight: 300;
+       text-align: center;
+       color: #fff;
+   }
+   .main-text h2 h4{
+       font-size: 30px;
+   }
+   .text-p h2 h3{
+       font-size: 35px;
+   }
+   .Fondo-R img{
+       margin-top: 20%;
+       width: 50vw;
+       height: 100%;
+    
+   }    
+   .Contacto{
+       margin-top: 5%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 10px 3% 10px;
+   }
+   .line{
+       display: none;
+   }
+   .Contacto-text h2{ 
+       padding: 0px 20px 20px 20px;
+       text-align: center;
+       font-size: 25px;
+       font-weight: 400;
+       width: 100%;  
+   }
+   .Contacto-form form{
+       width: auto;
+       padding: 2% 10%;
+   }
+   .Contacto-form form input, form textarea{  
+       font-size: 1rem;
+   }
+   .Contacto-form form .send{
+       font-size: 1rem;
+   }
+   .Atencion-C{
+       text-align: center;
+       margin-top: 0%;
+       padding: 5%;
+       position: relative;
+       left: 0%;
+   }
+   .Atencion-C h1{
+       text-align: center;
+       margin: 10px;
+       font-size: 25px;
+       font-weight: 900;
+   }
+   .correo-U{
+       margin: 10px;
+       cursor: pointer;
+   }
+   #Correo-1{
+       position: relative;
+       font-size: 40px;
+       border: 3px solid rgb(194, 2, 2);
+       border-radius: 10px;
+       margin-top: 18px;
+       left: 30px;
+       color: rgb(194, 2, 2);
+   }.Atencion-C a h2{
+       position: relative;
+       left: 40px;
+       text-align: left;
+       font-size: 18px;
+       font-weight: 500;
+       margin-top: 23px;
+   }
+   #Whatsapp-1{
+       position: relative;
+       font-size: 50px;
+       left: 36px;
+       color: rgb(0, 161, 0);
+   }
+   .Atencion-C a p{
+       position: relative;
+       left: 50px;
+       text-align: left;
+       font-size: 18px;
+       font-weight: 500;
+       margin-top: 5px;
+   }
+   .informacion .imagenlogo{
+       width: 100%;
+   }
+   .Logo1{
+       position: relative;
+       right: 10vw;
+   }
+   .Contacto-list p{
+       font-size: 17px;
+   }
+   .Contacto-list li{
+       font-size: 12px;
+   }
+   .last-text p{
+       font-size: 0.5rem;
+   }
+}
+@media screen and (max-width: 550px){
+   .logo img{
+       width: 20%;
+       height: auto;
+   }
+   header{
+       display: flex;
+       justify-content: space-between;
+       padding: 2% 5%;
+   }
+   .navbar{
+       display: none;
+       top: 40px;
+
+   }
+   #menu-icon {
+       display: inline-block;
+       width: 70%;
+       height: 70%;
+   }  
+   .Nosotros-text{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 15%;
+  }
+   .Nosotros-text h4{
+       margin-top: 1vw;
+       color: white;
+       font-size: 30px;
+       font-weight: 600;
+       text-align: center;
+       position: relative;
+       left: 0%;
+   }
+   .Nosotros-text img{
+       border-radius: 20px;
+       height: 100%;
+       width: 100%;
+       margin-top: 10vw;
+       position: relative;
+       left: 0%;
+   }
+   .Nosotros1 p{
+       font-size: 30px;
+   }
+   .Servicios{
+       grid-template-columns: 2fr;
+       
+   }
+   .Productos-V{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 10%;
+   }
+   .text-p h2{
+       font-size: 20px;
+       width: auto;
+       text-align: center;
+       color: #B9D7EA;
+   }
+   .text-p h3{
+       font-size: 10px;
+       width: 70vw;
+       font-weight: 300;
+       text-align: center;
+       color: #fff;
+   }
+   .main-text h2 h4{
+       font-size: 20px;
+   }
+   .text-p h2 h3{
+       font-size: 25px;
+   }    
+   .Contacto-text h2{ 
+       font-size: 20px;
+   }
+   .Atencion-C h1{
+       text-align: center;
+       margin: 20px;
+       font-size: 20px;
+       font-weight: 900;
+   }
+   .correo-U{
+       margin: 10px;
+       cursor: pointer;
+   }
+   #Correo-1{
+       position: relative;
+       font-size: 30px;
+       border: 3px solid rgb(194, 2, 2);
+       border-radius: 10px;
+       margin-top: 18px;
+       left: 50px;
+       color: rgb(194, 2, 2);
+   }.Atencion-C a h2{
+       position: relative;
+       left: 70px;
+       text-align: left;
+       font-size: 14px;
+       font-weight: 500;
+       margin-top: 23px;
+   }
+   #Whatsapp-1{
+       position: relative;
+       font-size: 40px;
+       left: 60px;
+       color: rgb(0, 161, 0);
+   }
+   .Atencion-C a p{
+       position: relative;
+       left: 78px;
+       text-align: left;
+       font-size: 14px;
+       font-weight: 500;
+       margin-top: 5px;
+   }
+   .Logo1{
+       position: relative;
+       right: 5vw;
+   }
+   .Contacto-icons i{
+       font-size: 6vw;
+       width: 15%;
+   }
+   .Contacto-list p{
+       font-size: 15px;
+   }
+   .Contacto-list li{
+       font-size: 10px;
+   }
+   .last-text p{
+       font-size: 0.5rem;
+   }
+}
